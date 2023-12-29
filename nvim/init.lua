@@ -1,1 +1,2 @@
--- require("kevin.lazy")
+require("kevin.lazy")
+require("kevin.core")
