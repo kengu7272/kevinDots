@@ -6,7 +6,6 @@ opt.relativenumber = true
 
 -- share system clipboard
 opt.clipboard:append("unnamedplus")
-
 -- tabs and indendation
 opt.tabstop = 2 -- two spaces for tab
 opt.expandtab = true -- spaces instead of tab

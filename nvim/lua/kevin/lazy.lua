@@ -14,7 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = ","
 
 require("lazy").setup("kevin.plugins", {
-	install = {
-		colorscheme = { "onedark" },
-	}
+  install = {
+    colorscheme = { "onedark" },
+  },
 })
