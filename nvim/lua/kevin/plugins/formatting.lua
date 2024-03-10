@@ -6,7 +6,7 @@ return {
     local conform = require("conform")
 
     conform.setup({
-      formatters_by_ft = {
+      formatters = {
         javascript = { "prettier" },
         typescript = { "prettier" },
         javascriptreact = { "prettier" },
@@ -16,7 +16,7 @@ return {
         json = { "prettier" },
         yaml = { "prettier" },
         markdown = { "prettier" },
-        lua = { "stylua" },
+        lua = { "stylua", env = { indent_type = "Spaces", indent_width = 4, } },
         python = { "isort", "black" },
       },
     })
