@@ -33,6 +33,7 @@ return {
         ["<C-j>"] = cmp.mapping.select_next_item(), -- next suggestion
         ["<C-Space>"] = cmp.mapping.complete(),     -- show completion suggestions
         ["<C-e>"] = cmp.mapping.abort(),            -- close completion window
+        ["<CR>"] = cmp.mapping.confirm({ select = false }),
       }),
       -- sources for autocompletion
       sources = cmp.config.sources({
