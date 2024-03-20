@@ -7,6 +7,7 @@ return {
       'nvim-treesitter/nvim-treesitter-textobjects',
       'windwp/nvim-ts-autotag',
     },
+    main = 'nvim-treesitter.configs',
     opts = { -- enable syntax highlighting
       highlight = {
         enable = true,
