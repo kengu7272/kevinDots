@@ -6,6 +6,7 @@ return {
     dependencies = {
       'nvim-treesitter/nvim-treesitter-textobjects',
       'windwp/nvim-ts-autotag',
+      'andymass/vim-matchup',
     },
     main = 'nvim-treesitter.configs',
     opts = { -- enable syntax highlighting
@@ -50,6 +51,9 @@ return {
           scope_incremental = false,
           node_decremental = '<bs>',
         },
+      },
+      matchup = {
+        enable = true,
       },
     },
   },
