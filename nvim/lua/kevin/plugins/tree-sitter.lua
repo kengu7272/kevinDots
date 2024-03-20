@@ -7,6 +7,7 @@ return {
       'nvim-treesitter/nvim-treesitter-textobjects',
       'windwp/nvim-ts-autotag',
       'andymass/vim-matchup',
+      'nvim-treesitter/nvim-treesitter-context',
     },
     main = 'nvim-treesitter.configs',
     opts = { -- enable syntax highlighting

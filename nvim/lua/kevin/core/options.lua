@@ -14,5 +14,3 @@ opt.shiftwidth = 2 -- two spaces for shift with < >
 opt.softtabstop = 2 -- tab inserts two spaces
 opt.autoindent = true
 
--- cursor line
-opt.cursorline = true -- highlight the current cursor line
