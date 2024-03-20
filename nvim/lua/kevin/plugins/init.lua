@@ -1,4 +1,4 @@
 return {
-  'nvim-lua/plenary.nvim', -- required by many other plugins
+  'nvim-lua/plenary.nvim',
   'andweeb/presence.nvim',
 }
