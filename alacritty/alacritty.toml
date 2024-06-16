@@ -1,0 +1,22 @@
+[colors.primary]
+background = "#19212F"
+
+[font]
+normal = { family = "CaskaydiaMono Nerd Font Mono", style = "Regular" }
+
+[keyboard]
+bindings = [
+  { key = "Space", mods = "Control", chars = "\u0000" }, # This maps Ctrl + Space to send to terminal instead of NULL
+  { key = "C", mods = "Shift | Control", action = "Copy" },
+  { key = "V", mods = "Shift | Control", action = "Paste" },
+  { key = "+", mods = "Shift | Control", action = "IncreaseFontSize" },
+  { key = "_", mods = "Shift | Control", action = "DecreaseFontSize" },
+  { key = "_", mods = "Shift | Control", action = "ResetFontSize" },
+  { key = "Enter", mods = "Shift | Control", action = "SpawnNewInstance" },
+  { key = "W", mods = "Shift | Control", action = "Quit" },
+]
+
+[window]
+opacity = 0.95
+startup_mode = "Maximized"
+title = "Kevin's Terminal"
