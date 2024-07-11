@@ -5,6 +5,9 @@ keymap.set('n', '<C-d>', '<C-d>zz', { desc = 'Center code when jumping down' })
 keymap.set('n', '<C-u>', '<C-u>zz', { desc = 'Center code when jumping up' })
 keymap.set('n', 'n', 'nzz', { desc = 'Center code when searching down' })
 keymap.set('n', 'N', 'Nzz', { desc = 'Center code when searching up' })
+keymap.set('n', '<C-o>', '<C-o>zz', { desc = 'Center code when going back buffer' })
+keymap.set('n', '<C-i>', '<C-i>zz', { desc = 'Center code when going forward buffer' })
+keymap.set('n', 'gd', 'gdzz', { desc = 'Center code when going to definition' })
 
 -- Window switching
 keymap.set('n', '<C-h>', '<C-w>h', { desc = 'Go to left window', noremap = true })
